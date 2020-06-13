@@ -38,14 +38,10 @@ public class Conexion {
     
     
     
+     
     
     
-    
-    
-    
-    
-    
-    //Getters and setters
+    //setters
     
     public void setHost(String host) {
         this.host = host;
@@ -64,11 +60,5 @@ public class Conexion {
         this.database = database;
     }
 
-
-
-    
-    
-   
-    
     
 }
