@@ -16,7 +16,7 @@ public class BancoThink {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        Conexion.getConexion("localhost", "root", "", "clientes");
+        Conexion.getConexion("localhost", "root", "", "DataBase");
     }
     
 }

@@ -9,6 +9,8 @@ package bancothink;
  *
  * @author carlo
  */
-public class FormularioCompleto {
+public class FormularioCompleto extends Formulario {
+ 
     
+    //Form con todos los datos del cliente
 }

@@ -9,8 +9,6 @@ package bancothink;
  *
  * @author carlo
  */
-public class FormularioMinimo extends Formulario {
-    
-    //Form con los datos minimos del cliente
+public class Formulario {
     
 }
