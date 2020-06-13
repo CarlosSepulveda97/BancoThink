@@ -25,7 +25,7 @@ public class Cliente extends Persona{
     }
 
     public void solicitarCredito(){
-        //fabrica
+        
     }
     
     

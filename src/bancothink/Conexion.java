@@ -11,7 +11,7 @@ package bancothink;
  */
 public class Conexion {
     
-    
+    //Patron singleton, objeto estatico y constructor privado
     private String host="";
     private String user="";
     private String pass="";

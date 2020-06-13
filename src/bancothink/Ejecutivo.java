@@ -30,6 +30,14 @@ public class Ejecutivo extends Persona{
         
     }
     
+    public boolean verificarAntiguedad(){
+        //Verificar si el cliente tiene 6 o mas meses de antiguedad usando la conexion a la base de datos
+        return true;
+    }
+    
+    
+    
+    
     
     
 }

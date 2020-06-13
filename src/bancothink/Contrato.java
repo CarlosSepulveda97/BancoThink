@@ -5,6 +5,8 @@
  */
 package bancothink;
 
+import static bancothink.Solicitud.MAXIMODEDIAS;
+import static java.lang.Integer.parseInt;
 import java.util.ArrayList;
 
 /**
@@ -12,15 +14,17 @@ import java.util.ArrayList;
  * @author carlo
  */
 public class Contrato extends Emision {
-
+    
+    private String fechaContrato;
     private ArrayList<String> fechasDePago;
     private boolean aprobado;
     
-    
-    
-    
-    //calcular las fechas de pago
-    //calcular interes
-    //
-
+     public String calcularFecha(){
+        
+        fechasDePago.add(fechaContrato);
+        calcularFecha(fechasDePago);
+        
+        return "";
+    }
+   
 }

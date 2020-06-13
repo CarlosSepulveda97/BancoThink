@@ -20,8 +20,8 @@ public class Emision{
         return "";
    }
    
-   public String calcularFecha(String fecha1){
-       //Calular las fechas de pago 
+   public String calcularFecha(ArrayList<String> fechasDePago){
+       //Calular las fechas de pago y agregar al array, la primera fecha es la fecha a partir de la cual calcular
        
        return "";
    }

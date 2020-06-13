@@ -41,14 +41,13 @@ public class Solicitud extends Emision{
         return vigente;
     }
 
-    //objetos cliente
-    //objeto credito (instancia)
-    //conexion (pk y fk) 
+    
     public void setVigente(boolean vigente) {
         this.vigente = vigente;
     }
     
     
+    //REGLAS DE NEGOCIO
     
     //calcular tiempo de aprobacion 
 
@@ -61,5 +60,13 @@ public class Solicitud extends Emision{
         return "";
     }
     
+    public boolean verificarMonto(){
+        //no debe ser mayor al 150% del sueldo del cliente y ser mayor o igual a 300k
+        return true;
+    }
     
+    public boolean verifiarCuotas(){
+        //Verificar numero de cuotas y aplicar interes si es necesario
+        return true;
+    }
 }

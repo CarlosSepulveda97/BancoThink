@@ -11,15 +11,17 @@ package bancothink;
  */
 public class FactoriaFormularios {
     
-    public static String TipoFormulario;
+    //Factoria, instancia dependiendo el dato, el formulario correspondiente
+    
+    private static int idFormulario;
     
     public static Formulario getFormulario(String tipo) {
  
-    if (tipo.equals(TipoFormulario)) {
-        return new FormularioCompleto();
+    if (tipo.equals(tipo)) {
+        return new FormularioCompleto(idFormulario);
     }
     else {
-        return new FormularioMinimo();
+        return new FormularioMinimo(idFormulario);
     }
     }
 }

@@ -9,6 +9,20 @@ package bancothink;
  *
  * @author carlo
  */
-public class Formulario {
+public abstract class Formulario {
+    private int idFormulario;
+    public Formulario(int idFormulario) {
+        this.idFormulario = idFormulario;
+    }
+
+    public int getIdFormulario() {
+        return idFormulario;
+    }
+
+    public void setIdFormulario(int idFormulario) {
+        this.idFormulario = idFormulario;
+    }
+    
+    public abstract void mostrarForm();
     
 }

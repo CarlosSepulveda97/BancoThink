@@ -10,7 +10,16 @@ package bancothink;
  * @author carlo
  */
 public class FormularioCompleto extends Formulario {
+
+    public FormularioCompleto(int idFormulario) {
+        super(idFormulario);
+    }
  
-    
     //Form con todos los datos del cliente
+
+    @Override
+    public void mostrarForm() {
+        throw new UnsupportedOperationException("Not supported yet."); 
+    }
+    
 }
